@@ -84,7 +84,6 @@ export default function Home() {
       contactName: "",
       relationship: "",
       contactPhone: "",
-      contactEmail: "",
       guardianName: "",
       guardianRelationship: "",
       guardianPhone: "",
@@ -221,7 +220,6 @@ export default function Home() {
 
   // Handle final submission
   const handleSubmit = async () => {
-    console.log("Final form data:", formData);
     toast({
       title: "Success!",
       description: "Employee onboarding completed successfully.",
@@ -330,7 +328,7 @@ export default function Home() {
             Employee Onboarding
           </h1>
           <p className="text-muted-foreground">
-            Welcome! Let's get you set up with all the information we need.
+            Welcome! Let&apos;s get you set up with all the information we need.
           </p>
         </div>
 
